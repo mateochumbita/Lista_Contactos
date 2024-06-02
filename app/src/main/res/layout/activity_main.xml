@@ -18,9 +18,9 @@
         tools:layout_editor_absoluteY="-17dp">
 
         <SearchView
-            android:id="@+id/searchView"
+            android:id="@+id/txtBuscar"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="15dp"
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/border_radius_color"
         android:backgroundTint="#283593"
-        android:onClick="New_contact"
+        android:onClick="newContact"
         android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

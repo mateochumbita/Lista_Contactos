@@ -1,6 +1,7 @@
-package com.mateo.Fuentes686Chumbita782.classes;
+package com.mateo.Fuentes686Chumbita782.clases;
 
 public class Contacto {
+    public int id;
     public String nombre;
     public String apellido;
     public String numero;
@@ -8,7 +9,12 @@ public class Contacto {
     public String genero;
     public String color;
 
-    public Contacto(String nombre, String apellido, String numero, String direccion, String genero, String color) {
+
+    public Contacto() {
+
+    }
+    public Contacto(int id,String nombre, String apellido, String numero, String direccion, String genero, String color) {
+        this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.numero = numero;
@@ -31,6 +37,14 @@ public class Contacto {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getApellido() {
